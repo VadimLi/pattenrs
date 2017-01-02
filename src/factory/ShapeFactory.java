@@ -7,7 +7,7 @@ public class ShapeFactory {
         switch (shape) {
             case "Rect" : return new Rect();
             case "Circle" : return new Circle();
-            default: return null;
+            default: throw new IllegalArgumentException("Не верная фигура. Фигура должна быть 'Rect' или 'Circle' !");
         }
 
     }
