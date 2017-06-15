@@ -11,6 +11,5 @@ Simple patterns.
 8 Lazy Singleton
 9 State
 10 Strategy
-
-
+11 Composite
 
